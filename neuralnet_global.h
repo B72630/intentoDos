@@ -1,0 +1,12 @@
+#ifndef NEURALNET_GLOBAL_H
+#define NEURALNET_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(NEURALNET_LIBRARY)
+#  define NEURALNETSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define NEURALNETSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // NEURALNET_GLOBAL_H

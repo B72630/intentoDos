@@ -14,4 +14,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    capa.cpp \
+    conexion.cpp \
+    neuralnet.cpp \
+    neurona.cpp \
+    red.cpp
+
+HEADERS += \
+    capa.h \
+    conexion.h \
+    lista.h \
+    neuralnet.h \
+    neuralnet_global.h \
+    neurona.h \
+    nodolista.h \
+    red.h

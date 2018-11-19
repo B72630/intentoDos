@@ -7,7 +7,9 @@ template <class T>
 
 class Capa
 {
+
    Lista<T>* neuronas;
+
 public:
     Capa(int numeroNeuronas);
     ~ Capa(){delete neuronas;}
